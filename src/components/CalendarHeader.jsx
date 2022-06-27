@@ -19,7 +19,6 @@ const CalendarHeader = () => {
   };
 
   const handleReset = () => {
-    console.log(dayjs().month());
     setMonthIndex(dayjs().month());
   };
 
